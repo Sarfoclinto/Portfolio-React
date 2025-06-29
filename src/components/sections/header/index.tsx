@@ -4,7 +4,7 @@ const links = [
   "Overview",
   "Stack",
   "Experience",
-  "Testimonials",
+  // "Testimonials",
   "Certifications",
   "Contact",
 ];

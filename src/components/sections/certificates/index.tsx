@@ -13,7 +13,7 @@ import SectionHeader from "../SectionHeader";
 
 /// todo:: add the zaptek and ipmc certificates images to the /certificates dir
 
-const Certificate = () => {
+const CertificateSection = () => {
   const [selectedCertificate, setSelectedCertificate] =
     useState<Certificate | null>(null);
   return (
@@ -388,4 +388,4 @@ const Certificate = () => {
     </>
   );
 };
-export default Certificate;
+export default CertificateSection;

@@ -1,6 +1,7 @@
 import Background from "../components/background";
 import Container from "../components/Container";
 import Certificate from "../components/sections/certificates";
+import Contact from "../components/sections/contact";
 import Experience from "../components/sections/experience";
 import Header from "../components/sections/header";
 import Hero from "../components/sections/hero";
@@ -18,6 +19,7 @@ const Page = () => {
         <TechStack />
         <Experience />
         <Certificate />
+        <Contact />
       </Container>
     </main>
   );

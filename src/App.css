@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+.debug {
+  border: 1px solid red;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scroll-behavior: smooth;
+}

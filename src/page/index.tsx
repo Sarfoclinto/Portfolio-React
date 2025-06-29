@@ -1,10 +1,18 @@
 import Background from "../components/background";
+import Container from "../components/Container";
+import Header from "../components/sections/header";
+import Hero from "../components/sections/hero";
+import Overview from "../components/sections/overview";
 
 const Page = () => {
   return (
-    <main>
+    <main className="relative h-dvh w-dvw overflow-auto no-scrollbar">
       <Background />
-      <div></div>
+      <Header />
+      <Container>
+        <Hero />
+        <Overview />
+      </Container>
     </main>
   );
 };

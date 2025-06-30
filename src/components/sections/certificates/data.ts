@@ -1,3 +1,5 @@
+import { easeInOut } from "motion";
+
 export type Certificate = {
   title: string;
   provider: string;
@@ -24,7 +26,7 @@ export const certifications: Certificate[] = [
     providerIcon: "arcticons:zappka",
     platformIcon: "arcticons:zappka",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/zaptek.png",
+    certificatePreview: "/certificates/zaptek.jpg",
     providerIconSize: 64,
     platformIconSize: 64,
   },
@@ -73,10 +75,10 @@ export const itemVariants = {
     scale: 1,
     transition: {
       duration: 0.8,
-      ease: [0.25, 0.46, 0.45, 0.94],
+      ease: easeInOut,
     },
   },
-};
+} as const;
 
 export const floatVariants = {
   animate: {
@@ -85,7 +87,7 @@ export const floatVariants = {
     transition: {
       duration: 8,
       repeat: Infinity,
-      ease: "easeInOut",
+      ease: easeInOut,
     },
   },
 };

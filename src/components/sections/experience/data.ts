@@ -1,3 +1,5 @@
+import { easeInOut } from "motion";
+
 export const experiences = [
   {
     role: "Software Developer",
@@ -59,7 +61,8 @@ export const itemVariants = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: [0.25, 0.46, 0.45, 0.94],
+      // ease: [0.25, 0.46, 0.45, 0.94],
+      ease: easeInOut,
     },
   },
 };
@@ -76,4 +79,4 @@ export const iconVariants = {
       delay: 0.3,
     },
   },
-};
+} as const;

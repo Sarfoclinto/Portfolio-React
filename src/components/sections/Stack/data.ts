@@ -20,9 +20,18 @@ export const techStackData: Record<string, TechItem[]> = {
     {
       name: "Express",
       icon: "skill-icons:expressjs-dark",
-      level: "Expert",
+      level: "Intermediate",
       category: "Backend",
       description: "Fast, minimalist web framework for Node.js",
+      yearsUsed: 1,
+    },
+    {
+      name: "C#",
+      icon: "logos:c-sharp",
+      level: "Intermediate",
+      category: "Backend",
+      description:
+        "Modern language for building robust backend services and APIs",
       yearsUsed: 1,
     },
     {
@@ -43,6 +52,14 @@ export const techStackData: Record<string, TechItem[]> = {
       category: "Frontend",
       description: "Building modern, interactive user interfaces",
       yearsUsed: 2,
+    },
+    {
+      name: "Blazor",
+      icon: "devicon:blazor",
+      level: "Intermediate",
+      category: "Frontend",
+      description: "Building modern, interactive user interfaces",
+      yearsUsed: 1,
     },
     {
       name: "TypeScript",
@@ -94,6 +111,23 @@ export const techStackData: Record<string, TechItem[]> = {
       description: "NoSQL document database",
       yearsUsed: 1,
     },
+    {
+      name: "Convex",
+      icon: "simple-icons:convex",
+      level: "Beginner",
+      category: "Database",
+      description:
+        "Backend-as-a-service for modern web apps with real-time data and TypeScript APIs",
+      yearsUsed: 1,
+    },
+    {
+      name: "Ms Sql Server",
+      icon: "devicon:microsoftsqlserver",
+      level: "Beginner",
+      category: "Database",
+      description: "Enterprise-grade relational database from Microsoft",
+      yearsUsed: 1,
+    },
   ],
   "Cloud & DevOps": [
     {
@@ -111,6 +145,14 @@ export const techStackData: Record<string, TechItem[]> = {
       category: "Cloud & DevOps",
       description: "Version control system",
       yearsUsed: 2,
+    },
+    {
+      name: "Clerk",
+      icon: "simple-icons:clerk",
+      level: "Beginner",
+      category: "Cloud & DevOps",
+      description: "Authentication and user management for modern apps",
+      yearsUsed: 1,
     },
   ],
 };

@@ -16,7 +16,7 @@ const Overview = () => {
   const archivements = [
     {
       icon: "solar:star-bold",
-      text: "Snr Senior",
+      text: "Snr Intern",
       color: "text-yellow-600",
     },
     {
@@ -109,7 +109,7 @@ const Overview = () => {
                       with
                       <span className="font-bold text-green-600 dark:text-green-400">
                         {" "}
-                        1+ years
+                        2+ years
                       </span>{" "}
                       of experience crafting digital experiences that users
                       love.
@@ -307,7 +307,7 @@ const Overview = () => {
                   </div>
                   <div>
                     <div className="text-sm font-bold text-gray-900 dark:text-white">
-                      clintonsarfo.dev
+                      clintonsarfo.vercel.app
                     </div>
                   </div>
                 </motion.div>

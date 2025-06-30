@@ -47,7 +47,7 @@ const Contact = () => {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: "lightify6@gmail.com", // Your email
+          to_email: "clinton.sarfo.dev@gmail.com", // Your email
         },
         publicKey
       );

@@ -273,7 +273,7 @@ const Overview = () => {
               </h4>
               <div className="space-y-3">
                 <motion.a
-                  href="mailto:clintonsarfo2025@gmail.com"
+                  href="mailto:clinton.sarfo.dev@gmail.com"
                   whileHover={{ scale: 1.02, x: 4 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex items-center gap-3 p-3 rounded-lg bg-white/70 dark:bg-gray-800/30 hover:bg-white/90 dark:hover:bg-gray-800/50 transition-all duration-300 group border border-white/20 dark:border-gray-700/30"
@@ -288,7 +288,7 @@ const Overview = () => {
                   </div>
                   <div>
                     <div className="text-sm font-bold text-gray-900 dark:text-white break-all">
-                      clintonsarfo2025@gmail.com
+                      clinton.sarfo.dev@gmail.com
                     </div>
                   </div>
                 </motion.a>

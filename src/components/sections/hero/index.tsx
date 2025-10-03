@@ -5,19 +5,19 @@ import { Icon } from "@iconify/react";
 const Hero = () => {
   const socialLinks = [
     {
-      href: "",
+      href: "https://github.com/Sarfoclinto",
       icon: "simple-icons:github",
       label: "GitHub",
       color: "hover:text-slate-900 dark:hover:text-slate-950",
     },
     {
-      href: "",
+      href: "https://linkedin.com/in/clinton-sarfo",
       icon: "skill-icons:linkedin",
       label: "LinkedIn",
       color: "hover:text-blue-600",
     },
     {
-      href: "",
+      href: "mailto:clinton.sarfo.dev@gmail.com",
       icon: "material-icon-theme:email",
       label: "Email",
       color: "hover:text-green-600",

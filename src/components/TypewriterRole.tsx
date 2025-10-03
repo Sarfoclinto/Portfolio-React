@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { Typewriter } from "react-simple-typewriter";
 
 const TypewriterRole = () => {
-  const roles = ["Software Engineer", "System Designer", "Frontend Develeper"];
+  const roles = ["Software Engineer", "System Designer", "Frontend Developer"];
   return (
     <motion.div
       className="relative text-xl md:text-2xl mb-6 h-16 flex items-center justify-center"

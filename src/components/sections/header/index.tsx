@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "motion/react";
 import { useRef, useState } from "react";
-import AppsDrawer from "./AppsDrawer"; 
+import AppsDrawer from "./AppsDrawer";
 
 const links = [
   "Overview",
@@ -16,7 +16,7 @@ const apps = [
     name: "SHELL_SCANNER",
     description:
       "A mobile app that scans barcodes and QR codes. Acts as a utility app for POS systems, inventory management, and quick access to product information. Built with React Native and Expo.",
-    apk: "shell_scanner_v1.0.2.apk",
+    apk: "shell_scanner.zip",
   },
   // Add more as needed
 ];
@@ -79,9 +79,11 @@ const Header = () => {
   };
 
   const handleDownload = (app: (typeof apps)[0]) => {
+    // get ext from name. ext could be zip, apk, etc
+    const ext = app.apk.split(".").pop();
     const link = document.createElement("a");
     link.href = `/${app.apk}`;
-    link.download = `${app.name}.apk`;
+    link.download = `${app.name}.${ext}`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

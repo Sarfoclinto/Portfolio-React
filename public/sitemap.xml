@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Main page -->
+  <url>
+    <loc>https://clintonsarfo.vercel.app</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://clintonsarfo.vercel.app/me.png</image:loc>
+      <image:title>Clinton Sarfo - Full-Stack Web Developer</image:title>
+    </image:image>
+  </url>
+
+  <!-- Hero Section -->
+  <url>
+    <loc>https://clintonsarfo.vercel.app#hero</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Overview Section -->
+  <url>
+    <loc>https://clintonsarfo.vercel.app#overview</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Tech Stack Section -->
+  <url>
+    <loc>https://clintonsarfo.vercel.app#stack</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Experience Section -->
+  <url>
+    <loc>https://clintonsarfo.vercel.app#experience</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Certificates Section -->
+  <url>
+    <loc>https://clintonsarfo.vercel.app#certificates</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>quarterly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://clintonsarfo.vercel.app#contact</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+</urlset>
